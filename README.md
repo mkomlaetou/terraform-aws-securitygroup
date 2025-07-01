@@ -60,6 +60,7 @@ No modules.
 ## SAMPLE ROOT MODULE
 
 ```hcl
+
 terraform {
   required_providers {
     aws = {
@@ -126,3 +127,5 @@ variable "custom_tags" {
     Purpose     = "aws-training"
   }
 }
+
+```
