@@ -80,7 +80,7 @@ provider "aws" {
 ##########################################
 
 module "priv_sv_sg" {
-  source   = "mkomlaetou/vpc/aws"
+  source   = "mkomlaetou/securitygroup/aws"
   sg_name  = var.priv_sv
   sg_vpc   = data.aws_vpc.vpc-01.id
   sg_ports = var.priv_sv_sg_ports
