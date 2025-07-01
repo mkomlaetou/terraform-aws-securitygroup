@@ -57,6 +57,7 @@ No modules.
 |------|-------------|
 | <a name="output_sg_id"></a> [sg\_id](#output\_sg\_id) | security group id |
 
+## SAMPLE ROOT MODULE
 
 ```hcl
 terraform {
